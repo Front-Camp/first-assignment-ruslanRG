@@ -7,8 +7,12 @@
  * isObject([]);   // false
  * isObject(null); // false
  */
-const isObject = data => {
-  /* your logic here...*/
+const isObject = (data) => {
+    if (typeof data === 'object') {
+        return true;
+    } else {
+        return false;
+    }
 };
 
 export default isObject;

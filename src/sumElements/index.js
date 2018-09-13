@@ -11,7 +11,7 @@
  * sumElements([Infinity, NaN, 1]); // 1
  */
 const sumElements = arr => {
-    for (var i = 0, sum = 0; i < array.length; sum += array[i++]) {
+    for (var i = 0, sum = 0; i < arr.length; sum += arr[i++]) {
         console.log(sum);
     }
 };
